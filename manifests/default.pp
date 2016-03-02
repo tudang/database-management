@@ -19,4 +19,9 @@ package { $Postgre:
   require => Exec["apt-get update"],
 }
 
+package { "mysql-server":
+  ensure => latest,
+  require => Exec["apt-get update"],
+}
+
 
