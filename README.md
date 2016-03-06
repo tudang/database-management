@@ -2,8 +2,8 @@
 You have to install [vagrant](https://www.vagrantup.com) before running following commands
 
 ```
-git clone https://github.com/tudang/dbman.git
-cd dbman
+https://github.com/tudang/database-management.git
+cd database-management
 vagrant up
 ```
 
