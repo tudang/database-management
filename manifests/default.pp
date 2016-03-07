@@ -12,12 +12,12 @@ package { "git":
   require => Exec["apt-get update"],
 }
 
-$Postgre = ["postgresql", "postgresql-contrib"]
+# $Postgre = ["postgresql", "postgresql-contrib"]
 
-package { $Postgre:
-  ensure => latest,
-  require => Exec["apt-get update"],
-}
+# package { $Postgre:
+#   ensure => latest,
+#   require => Exec["apt-get update"],
+# }
 
 package { "mysql-server":
   ensure => latest,
