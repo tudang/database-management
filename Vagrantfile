@@ -12,5 +12,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
  
  ## Provisioning
  config.vm.provision :puppet
+ config.vm.provision :shell, path: "bashscripts/install-mongodb.sh"
 
 end
